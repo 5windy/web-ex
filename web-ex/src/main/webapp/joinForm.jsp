@@ -8,6 +8,8 @@
 <title>Join</title>
 </head>
 <body>
+<!-- 커밋 메세지 : Update Join 10/13 15:57 김지연 -->
+
 	<form method="POST" action="joinFormPro.jsp" id="form">
 		<div>
 
@@ -44,21 +46,21 @@
 				</div>
 				<div id="country">
 					<select name="country">
-						<option value="ko">India +91</option>
-						<option value="ko">Japan +81</option>
+						<option value="id">India +91</option>
+						<option value="jp">Japan +81</option>
 						<option value="ko" selected>Korea +82</option>
-						<option value="ko">Macao +853</option>
-						<option value="ko">Togo +228</option>
-						<option value="ko">Yemen +967</option>
+						<option value="mc">Macao +853</option>
+						<option value="tg">Togo +228</option>
+						<option value="ym">Yemen +967</option>
 					</select> 
 				</div>
-				<input type="text" name="phone" id="phone" placeholder="전화번호">
+				<input type="text" name="phone" id="phone" placeholder="전화번호 ###-####-####">
 			</div>
 			<div class="error-msg">
 				<ul>
 					<li id="error-name">이름은 필수 입력값입니다.</li>
 					<li id="error-birth">생년월일은 필수 입력값입니다.</li>
-					<li id="error-phone">전화번호는 필수 입력값입니다.</li>
+					<li id="error-phone">전화번호는 필수 입력값입니다. 양식 : ###-####-####</li>
 				</ul>
 			</div>
 		</div>
