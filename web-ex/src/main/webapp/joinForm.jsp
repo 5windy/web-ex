@@ -53,13 +53,13 @@
 					</select> 
 				</div>
 				<input type="text" name="phone" id="phone" placeholder="전화번호">
-				<div class="error-msg">
-					<ul>
-						<li id="error-name">이름은 필수 입력값입니다.</li>
-						<li id="error-birth">생년월일은 필수 입력값입니다.</li>
-						<li id="error-phone">전화번호는 필수 입력값입니다.</li>
-					</ul>
-				</div>
+			</div>
+			<div class="error-msg">
+				<ul>
+					<li id="error-name">이름은 필수 입력값입니다.</li>
+					<li id="error-birth">생년월일은 필수 입력값입니다.</li>
+					<li id="error-phone">전화번호는 필수 입력값입니다.</li>
+				</ul>
 			</div>
 		</div>
 		<input type="button" value="join" onclick="checkForm(form)" id="submit">

@@ -84,6 +84,11 @@ li {
 	background-color: #0aaa5cff;
 }
 
+#gender div,
+#submit:focus {
+	cursor: pointer;
+}
+
 input {
 	padding: 15px;
 	border: solid 1px lightgrey;
