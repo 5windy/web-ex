@@ -75,6 +75,8 @@ li {
 
 #country > select {
 	border: none;
+	width: 100%;
+	outline: none;
 }
 
 #submit {
