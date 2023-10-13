@@ -57,6 +57,8 @@ input_phone.addEventListener('change', e => {
 });
 
 function checkForm(form) {
+	console.log('form : ', form);
+	
 	const username = form.username.value;
 	const password = form.password.value;
 	const email = form.email.value;

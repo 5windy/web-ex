@@ -64,7 +64,7 @@
 				</ul>
 			</div>
 		</div>
-		<input type="button" value="join" onclick="checkForm(form)" id="submit">
+		<input type="button" value="join" onclick="checkForm(form)" id="btn-submit">
 	</form>
 
 	<script src="/resources/script/validation.js"></script>
