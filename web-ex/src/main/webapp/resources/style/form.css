@@ -97,5 +97,6 @@ input:focus,
 #female:checked ~ #gender > #for-female > div, 
 #other:checked ~ #gender > #for-other > div
 {
+	border-width: 2px;
 	border-color: #0aaa5cff;
 }
