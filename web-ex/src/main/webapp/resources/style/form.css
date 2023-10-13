@@ -87,7 +87,9 @@ li {
 }
 
 #gender div,
-#submit:focus {
+#submit:focus,
+#country > select:focus
+{
 	cursor: pointer;
 }
 
