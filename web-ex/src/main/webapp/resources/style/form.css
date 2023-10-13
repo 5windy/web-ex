@@ -53,6 +53,8 @@ li {
 }
 
 #gender > label > div {
+	text-align: center;
+	font-size: 0.8em;
 	width: 110px;
 	border: solid 1px lightgrey;
 	padding: 5px;	
