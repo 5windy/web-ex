@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h1>**님 환영합니다.</h1>
+<h1><%=request.getParameter("username") %>님 환영합니다.</h1>
 </body>
 </html>
