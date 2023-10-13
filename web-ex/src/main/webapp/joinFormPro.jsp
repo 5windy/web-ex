@@ -28,9 +28,9 @@ UserRequestDto user = new UserRequestDto(username, password, name, email, phone,
 boolean result = dao.createUser(user);
 
 if(result) {
-	response.sendRedirect("mypage.jsp?username=" + username);
+	response.sendRedirect("/mypage?username=" + username);
 } else {
-	response.sendRedirect("joinForm.jsp");
+	response.sendRedirect("/join");
 }
 
 
