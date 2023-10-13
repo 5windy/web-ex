@@ -1,3 +1,12 @@
+const form = document.getElementById("form");
+
+form.addEventListener("submit", e => {
+	// 기본 동작을 무시 
+	e.preventDefault();
+	
+	checkForm(form);
+});
+
 function checkForm(form) {
 	console.log(form);
 	console.log(form.username);
@@ -11,4 +20,5 @@ function checkForm(form) {
 		form.submit();
 	}
 	
+	// Update Join
 }
