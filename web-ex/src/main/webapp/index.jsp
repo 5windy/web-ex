@@ -23,7 +23,7 @@
 	boolean result = userDao.createUser(user);
 	System.out.println(result);
 	
-	result = userDao.createUser(user);
+	// result = userDao.createUser(user);
 	System.out.println(result);
 	System.out.println(userDao.getSize());
 	
@@ -52,7 +52,9 @@
 	user.setPassword("1111");
 	result = userDao.deleteUser(user);
 	System.out.println("delete user : " + result);
-	System.out.println("??? : " + list);
+	System.out.println("before : " + list);
+	list = userDao.findAll();
+	System.out.println("after : " + list);
 	%>
 
 </body>
